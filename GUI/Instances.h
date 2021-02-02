@@ -1,0 +1,25 @@
+#pragma once
+
+#include "Table/SortedSequenceTable.h"
+#include "App/Kriterium.h"
+
+struct Kriteria {
+	KriteriumUzemnaJednotkaNazovObec kritNazovObecUJ;
+	KriteriumUzemnaJednotkaNazovOkres kritNazovOkresUJ;
+	KriteriumUzemnaJednotkaNazovKraj kritNazovKrajUJ;
+	KriteriumUzemnaJednotkaTyp kritTypUJ;
+	KriteriumUzemnaJednotkaUcast kritUcastUJ;
+	KriteriumUzemnaJednotkaVolici kritVoliciUJ;
+//	static KriteriumUzemnaJednotkaPrislusnost kritPrislusnostUJ;
+	KriteriumUzemnaJednotkaZucastneniVolici kritZucastneniUJ;
+	KriteriumUzemnaJednotkaOdovzdaneObalky kritObalkyOsobneUJ {SposobOdovzdania::Osobne};
+	KriteriumUzemnaJednotkaOdovzdaneObalky kritObalkyCudzinaUJ {SposobOdovzdania::Z_Cudziny};
+	KriteriumUzemnaJednotkaOdovzdaneObalky kritObalkySpoluUJ {SposobOdovzdania::Spolu};
+	KriteriumUzemnaJednotkaPocetPlatnychHlasov kritpocetPlatnychUJ;
+	KriteriumUzemnaJednotkaPodielPlatnychHlasov kritPodielPlatnychUJ;
+	KriteriumPolitickySubjektNazov kritNazovPS;
+	KriteriumPolitickySubjektZiskaneHlasy kritHlasyPS;
+	KriteriumPolitickySubjektUspesnost kritUspesnostPS;
+	KriteriumPolitickySubjektUspesnostUzemnychJednotiek kritUspesnostUzemnychJednotiekSubjektu;
+};
+
