@@ -24,7 +24,7 @@ The application uses only its own implemented data structures, sorting and filte
 
 #### Criterion:
 * select the properties of individual objects.
-UML diagram of Criterion classes
+* UML diagram of Criterion classes
 ![CriterionUML](https://raw.githubusercontent.com/GabrielHalvonik/ProcessingOfElectionResults_DataStructures/master/manual_res/UML_kriterium.png)
 
 #### Filter:
